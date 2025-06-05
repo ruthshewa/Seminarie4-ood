@@ -1,0 +1,15 @@
+
+Exception was thrown: Forced exception from ExternalInventorySystem
+se.kth.iv1350.seminarie3.integration.DatabaseFailureException: Forced exception from ExternalInventorySystem
+	at se.kth.iv1350.seminarie3.integration.ExternalInventorySystem.findItemUsingId(ExternalInventorySystem.java:52)
+	at se.kth.iv1350.seminarie3.model.Sale.addItemToCart(Sale.java:42)
+	at se.kth.iv1350.seminarie3.controller.Controller.addItem(Controller.java:74)
+	at se.kth.iv1350.seminarie3.view.View.runSale(View.java:74)
+	at se.kth.iv1350.seminarie3.startup.Main.main(Main.java:23)
+Exception was thrown: Forced exception from ExternalInventorySystem
+se.kth.iv1350.seminarie3.integration.DatabaseFailureException: Forced exception from ExternalInventorySystem
+	at se.kth.iv1350.seminarie3.integration.ExternalInventorySystem.findItemUsingId(ExternalInventorySystem.java:61)
+	at se.kth.iv1350.seminarie3.model.Sale.addItemToCart(Sale.java:42)
+	at se.kth.iv1350.seminarie3.controller.Controller.addItem(Controller.java:74)
+	at se.kth.iv1350.seminarie3.view.View.runSale(View.java:67)
+	at se.kth.iv1350.seminarie3.startup.Main.main(Main.java:23)
